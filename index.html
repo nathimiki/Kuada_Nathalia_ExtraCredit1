@@ -70,21 +70,16 @@
       </div>
       <div class="profPanel panel panel-default">
         <div class="profPanelText">
-
           <!-- <h2 class="hidden">Prof Panel</h2> -->
-
-          <!-- REPLACE THIS CONTENT WITH DATA PULLED IN FROM classData.js -->
-
-          <p class="text-muted"><span class="text-primary"></span></p>
-          <p></p>
-          <!-- class times go here -->
-          <ul class="list-inline"></ul>
-
-          <!-- END DYNAMIC DATA -->
+            <p class="text-muted" id="courseName"></p>
+            <p id="profName"></p>
+            <ul class="list-inline" id="classTime">
+                <span class="fa fa-clock-o fa-flip-horizontal"></span><li></li>
+                <span class="fa fa-clock-o fa-flip-horizontal"></span><li></li>
+            </ul>
+          </div>
+          <img alt="prof image" class="img-circle profImg">         
         </div>
-
-        <img src="" alt="prof image" class="img-circle profileImg">        
-      </div>
     </section>
 
 <!-- Bottom Panel -->
@@ -112,10 +107,10 @@
         <article class="courseInfo">
 
           <!-- REPLACE ALL OF THIS CONTENT WITH DATA FROM classData.js -->
-          <h2></h2>
+          <h2 id="titleDesc"></h2>
           <hr>
           <h3>Course Description:</h3>
-          <p></p>
+          <p id="courseDesc"></p>
           <!-- END DYNAMIC DATA -->
         </article>
        </div>
@@ -127,7 +122,12 @@
           <h2 class="hidden">Schedule</h2>
 
           <!-- loop through the course content and build the nav -->
-          <ul class="list-unstyled list-inline"></ul>
+          <ul class="list-unstyled list-inline courseContent">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
           <!-- end dynamic nav -->
 
           <div class="navIndicator"></div>
