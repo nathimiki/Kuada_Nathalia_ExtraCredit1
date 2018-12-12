@@ -2,7 +2,8 @@
 Extra Credict 1 (LMS Home Page)
 
 **Getting Started:**<br>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
+First of all, you should clone the repo getting the code from the clone or download button. Open command prompt -> cd desktop -> git clone + (https://github.com/nathimiki/Kuada_Nathalia_ExtraCredit1.git). This will create a clone from this repo on your desktop. Now you can start your work.
 
 **Installation:**<br>
 - Node.js 
