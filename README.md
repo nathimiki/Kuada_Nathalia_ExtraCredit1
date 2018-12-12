@@ -1,20 +1,20 @@
-**Project Title**: <br>
+**Project Title**<br>
 Extra Credict 1 (LMS Home Page)
 
 **Getting Started**<br>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 **Installation:**<br>
-Node.js 
-SASS
-Gulp
-Npm
+- Node.js 
+- SASS
+- Gulp
+- Npm
 
 **Built With:**<br>
-Visual Studio Code
-Sass - CSS complier
+- Visual Studio Code
+- Sass - CSS complier
 
-**Sass Example:**<br>
+**Sass Example: **<br>
 
 ```scss
 //sidebar
